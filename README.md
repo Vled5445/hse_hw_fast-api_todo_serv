@@ -15,3 +15,8 @@
 
 Проверим работоспособность сайта  <br>
 <img width="1438" height="851" alt="image" src="https://github.com/user-attachments/assets/27a9d59c-18b1-42db-819f-e17f93e89623" />
+
+
+Для того, чтобы запустить данный сервис локально, можно воспользовать докер-контейнером, который размещен на dockerhub с помощью команды
+
+<i>docker run -d -p 8000:80 --name todo-app vled5445/todo-app:latest</i>
